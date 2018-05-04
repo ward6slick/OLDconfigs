@@ -1,0 +1,23 @@
+*background: #242624
+*foreground: #D4D1C5
+*cursorColor: #D4D1C5
+
+*color0: #242624
+*color1: #C5946D
+*color2: #A79F94
+*color3: #C7B5A2
+*color4: #B1C69F
+*color5: #D8C7A3
+*color6: #CCC7B7
+*color7: #D4D1C5
+*color8: #7b7c7b
+*color9: #C5946D
+*color10: #A79F94
+*color11: #C7B5A2
+*color12: #B1C69F
+*color13: #D8C7A3
+*color14: #CCC7B7
+*color15: #D4D1C5
+
+hc attr theme.active.color '#B1C69F'
+hc attr theme.normal.color '#3e403e'
