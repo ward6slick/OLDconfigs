@@ -1,0 +1,34 @@
+#define S_bg #3E3D3E
+
+#define S_one   #999999
+#define S_two   #9A8976
+#define S_three #7D8381
+#define S_four  #91948E
+#define S_five  #A59C92
+#define S_six   #A4A29C
+#define S_seven #B1B1AC
+#define S_eight #C4B8A8
+
+*background:  #3E3D3E
+*foreground:  #C4B8A8
+*cursorcolor: #C4B8A8
+
+*color0:  S_bg
+*color1:  S_two
+*color2:  S_three
+*color3:  S_four
+*color4:  S_five
+*color5:  S_six
+*color6:  S_seven
+*color7:  S_eight
+*color8:  S_one
+*color9:  S_two
+*color10: S_three
+*color11: S_four
+*color12: S_five
+*color13: S_six
+*color14: S_seven
+*color15: S_eight
+
+hc attr theme.active.color '#B1B1AC'
+hc attr theme.normal.color '#585758'
