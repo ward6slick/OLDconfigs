@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 
-# slick x200 herbstluftwm config
+#         888                       888                d8   
+#         888-~88e  e88~~8e  888-~\ 888-~88e   d88~\ _d88__ 
+#         888  888 d888  88b 888    888  888b C888    888   
+#         888  888 8888__888 888    888  8888  Y88b   888   
+#         888  888 Y888    , 888    888  888P   888D  888   
+#         888  888  "88___/  888    888-_88"  \_88P   "88_/ 
+                                                  
+#                slick's x200 herbstluftwm config
 
 hc() {
     herbstclient "$@"
@@ -16,10 +23,10 @@ hc keyunbind --all
 # startup apps
 pkill tint2
 pkill xbindkeys
-tint2 -c ~/.config/tint2/f-bar/siji/blue2/tint2rc-border &
-tint2 -c ~/.config/tint2/f-bar/siji/blue2/tint2rc-ws &
-tint2 -c ~/.config/tint2/f-bar/siji/blue2/tint2rc-task &
-tint2 -c ~/.config/tint2/f-bar/siji/blue2/tint2rc-clockbatt &
+tint2 -c ~/.config/tint2/f-bar/siji/black2/tint2rc-border &
+tint2 -c ~/.config/tint2/f-bar/siji/black2/tint2rc-ws &
+tint2 -c ~/.config/tint2/f-bar/siji/black2/tint2rc-task &
+tint2 -c ~/.config/tint2/f-bar/siji/black2/tint2rc-clockbatt &
 compton &
 xrdb ~/.Xresources &
 xbindkeys &
@@ -178,8 +185,8 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 hc set frame_gap 0
 
-hc attr theme.active.color '#2D94A8'
-hc attr theme.normal.color '#1E2D46'
+hc attr theme.active.color '#5B535A'
+hc attr theme.normal.color '#283534'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 0
 hc attr theme.inner_color gray
