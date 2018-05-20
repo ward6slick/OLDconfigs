@@ -53,7 +53,7 @@ hc keybind $Mod-r spawn urxvt -e ranger
 hc keybind $Mod-m spawn urxvt -e cmus
 hc keybind $Mod-Shift-m spawn urxvt -e cava
 hc keybind $Mod-c spawn urxvt -e calcurse
-hc keybind Control-Alt-l spawn i3lock -f -i ~/Pictures/hlwm/i3lock.png
+hc keybind Control-Alt-l spawn i3lock -f -i ~/Pictures/hlwm/i3lockX200.png
 
 # screenshot
 hc keybind Print spawn scrot 'scrot_%Y-%m-%d-%S_$wx$h.png'
