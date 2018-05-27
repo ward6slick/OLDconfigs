@@ -29,5 +29,5 @@
 *color14: S_seven
 *color15: S_eight
 
-hc attr theme.active.color '#'
+hc attr theme.active.color '#728974'
 hc attr theme.normal.color '#314455'
